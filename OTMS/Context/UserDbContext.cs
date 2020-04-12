@@ -19,7 +19,7 @@ namespace OTMS.Context
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<User>().HasData(
-                new User() { User_Id = 1, Pwd = "John", Role = "Developer" },
+                new User() { User_Id = 1, Pwd = "Ram", Role = "Developer" },
                 new User() { User_Id = 2, Pwd = "Chris", Role = "Admin" },
                 new User() { User_Id = 3, Pwd = "Mukesh", Role = "Consultant" });
 
